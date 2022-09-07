@@ -1,0 +1,16 @@
+.uploadIcon > input {
+	display: none;
+}
+
+.uploadIcon .MuiSvgIcon-root {
+	color: var(--twitter-color);
+	cursor: pointer;
+	padding: 10px;
+	margin-left: -10px;
+	transition: all linear 100ms;
+}
+
+.uploadIcon .MuiSvgIcon-root:hover {
+	background-color: var(--twitter-bg-color);
+	border-radius: 50%;
+}

@@ -1,0 +1,48 @@
+body {
+	--twitter-color: #1d9bf0;
+	--green-color: #08cc49;
+	--red-color: #f01d55;
+	--twitter-hover-color: #117ac0;
+	--twitter-bg-color: #e6f0f6;
+	--green-bg-color: #e7f9ef;
+	--red-bg-color: #f7e6e6;
+	--twitter-dark-color: #64747f;
+	--dark-color: #aabfcf;
+	--post-color: #fdf9f5;
+	--soft-dark: #eff3f4;
+	-ms-overflow-style: none; /* for Internet Explorer, Edge */
+}
+
+.app {
+	display: flex;
+	max-width: 1400px;
+	margin: 0 auto;
+	height: 100vh;
+}
+
+.btn {
+	border: none !important;
+	color: #fff !important;
+	border-radius: 50px !important;
+	padding: 6px 18px !important;
+	font-size: 18px !important;
+	letter-spacing: normal !important;
+	font-weight: 800 !important;
+	font-family: inherit !important;
+	text-transform: inherit !important;
+}
+
+.btn-primary {
+	background-color: var(--twitter-color) !important;
+	transition: all linear 50ms;
+}
+
+.btn-secondary {
+	background-color: black !important;
+	padding: 8px 20px !important;
+	transition: all linear 50ms;
+}
+
+.btn-primary:hover {
+	background-color: var(--twitter-hover-color) !important;
+}
