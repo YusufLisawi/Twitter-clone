@@ -1,0 +1,35 @@
+.userInfo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	width: 100%;
+	padding: 15px;
+	margin-left: -15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-radius: 50px;
+	transition: all linear 100ms;
+}
+.userInfo:hover {
+	background-color: var(--soft-dark);
+}
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+}
+h4 {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--twitter-dark-color);
+}
+.userInfo__details {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.userInfo__names {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}

@@ -1,0 +1,54 @@
+.widgets {
+	flex: 0.25;
+	margin-left: 20px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	min-width: fit-content;
+}
+.widgets::-webkit-scrollbar {
+	display: none;
+}
+.widgets {
+	scrollbar-width: none !important;
+}
+
+.widgets__input {
+	width: 85%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	background-color: var(--soft-dark);
+	padding: 15px 20px;
+	border-radius: 50px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.widgets__input > input {
+	border: none;
+	outline: none;
+	font-family: inherit;
+	font-size: inherit;
+	background-color: transparent;
+	font-size: 18px;
+	width: 100%;
+}
+
+.widgets__input > input::placeholder {
+	color: var(--twitter-dark-color);
+	font-size: 18px;
+	font-weight: 500;
+}
+.widgets__searchIcon {
+	color: var(--twitter-dark-color);
+}
+
+.widgets__widgets {
+	display: flex;
+	flex-direction: column;
+}
+
+.widgets__widgets h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}

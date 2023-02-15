@@ -1,0 +1,84 @@
+.post {
+	border-bottom: 1px solid var(--twitter-bg-color);
+	padding: 15px;
+	display: flex;
+	align-items: flex-start;
+	gap: 15px;
+	width: 100%;
+	cursor: pointer;
+	transition: all linear 100ms;
+}
+.post:hover {
+	background-color: var(--post-color);
+}
+.post__body {
+	flex: 1;
+}
+.post__content img {
+	border-radius: 15px;
+	border: 1px solid var(--dark-color);
+	margin-top: 15px;
+	width: 400px;
+}
+.post__content p {
+	margin-top: 5px;
+}
+.post__header {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.post__owner {
+	display: flex;
+	gap: 3px;
+}
+.post__owner span {
+	padding-top: 2px;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+}
+h4 {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--twitter-dark-color);
+}
+.verified {
+	font-size: 18px !important;
+	color: var(--twitter-color);
+}
+
+.post__footer {
+	display: flex;
+	justify-content: flex-start;
+	gap: 15%;
+	align-items: center;
+	margin-left: -15px;
+	margin-top: 20px;
+	margin-bottom: -10px;
+	padding: 0 15px;
+}
+.post__footer .MuiSvgIcon-root {
+	font-size: 20px !important;
+	color: var(--twitter-dark-color);
+	cursor: pointer;
+	padding: 10px;
+	margin-top: -10px;
+	margin-left: -10px;
+	transition: all ease 80ms;
+}
+
+.post__footer .MuiSvgIcon-root:hover {
+	color: var(--twitter-color);
+	background-color: var(--twitter-bg-color);
+	border-radius: 50%;
+}
+.post__footer .MuiSvgIcon-root:nth-child(2):hover {
+	color: var(--green-color);
+	background-color: var(--green-bg-color);
+}
+.post__footer .MuiSvgIcon-root:nth-child(3):hover {
+	color: var(--red-color);
+	background-color: var(--red-bg-color);
+}
