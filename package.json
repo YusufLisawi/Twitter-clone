@@ -1,45 +1,25 @@
 {
   "name": "twitter-clone",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.10.0",
-    "@emotion/styled": "^11.10.0",
-    "@mui/icons-material": "^5.10.2",
-    "@mui/material": "^5.10.2",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "firebase": "^9.9.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-flip-move": "^3.0.4",
-    "react-scripts": "5.0.1",
-    "react-twitter-embed": "^4.0.4",
-    "web-vitals": "^2.1.4"
-  },
+  "version": "1.0.0",
+  "description": "",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YusufLisawi/Twitter-clone.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YusufLisawi/Twitter-clone/issues"
+  },
+  "homepage": "https://github.com/YusufLisawi/Twitter-clone#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
   }
 }
