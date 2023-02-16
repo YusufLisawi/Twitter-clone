@@ -1,4 +1,4 @@
-#Twitter clone with react.js and firebase
+# Twitter clone with react.js and firebase
 
 ## Version2.0 The migration from Firebase to MongoDB (In-Progress)
 
